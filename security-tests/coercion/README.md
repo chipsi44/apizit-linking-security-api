@@ -34,4 +34,3 @@ pas un budget global lors d'une campagne multi-instance.
 Créer payload.json avec `{"count":32,"enabled":true}`. Tester ensuite 33 puis
 une chaîne invalide. Les plafonds sont des résultats métier ; le moteur conserve
 son contrat de validation 400. Aucun quota APIZIT n’est modifié.
-

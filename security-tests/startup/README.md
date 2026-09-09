@@ -36,4 +36,3 @@ pas. `ADVERSARIAL_STARTUP_MODE=fail` provoque une erreur synthétique à l'impor
 La validation statique Linking doit rester possible, mais le démarrage doit échouer.
 Il s'agit d'une simulation de dépendance coûteuse ; aucun hook d'installation,
 poids ML ou gros package n'est téléchargé. Le cache alloue exactement 2 MiB.
-
