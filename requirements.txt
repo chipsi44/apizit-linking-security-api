@@ -1,0 +1,1 @@
+# Standard-library business code only. APIZIT manages the deployed adapter.
