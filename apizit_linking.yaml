@@ -1,0 +1,32 @@
+version: 1
+runtime:
+  language: python
+  version: "3.12"
+routes:
+  - path: /health
+    method: GET
+    function: service:health
+  - path: /startup
+    method: GET
+    function: service:startup
+  - path: /state
+    method: GET
+    function: service:state
+  - path: /coercion
+    method: POST
+    function: service:coercion
+    parameters:
+      count:
+        source:
+          location: body
+          name: count
+      enabled:
+        source:
+          location: body
+          name: enabled
+  - path: /failure
+    method: GET
+    function: service:failure
+  - path: /delay
+    method: GET
+    function: service:delay
